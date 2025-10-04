@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8" />
+	 <meta name="viewport" content="width=device-width,initial-scale=1" />		
+	 <title>Free SVG QR Code Generator for Designers | High Quality & Fast</title>
+	 <meta name="description" content="Generate high-quality QR Codes as SVG (vector) and PNG images instantly. This free, fast, and no-sign-up tool is optimized for graphic designers and print professionals." />
+	 <meta property="og:title" content="Free SVG QR Code Generator for Designers" />
+ 	 <meta property="og:description" content="Generate high-quality vector (SVG) QR Codes instantly, perfect for print and design work." />
+ 	 <meta property="og:type" content="website" />
+ 	 <meta name="robots" content="index, follow" />
+ 	 <link rel="stylesheet" href="style.css" />
+	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+	<div class=pt>
+		 	<h1>Generate SVG QR Codes for Print & Design</h1>
+		<p>The Easiest Way to Get High-Quality SVG QR Codes. Create vector QR Codes instantly from any URL or text. Free, fast, and perfect for print and graphic design with no sign-up needed.</p>
+	 	 		<p>Just enter your link below. Your QR Code updates in real-time.</p>
+
+		 <div class="row">
+		 	 <label for="text">Your URL</label>
+		 	 <input id="text" type="text" value="https://example.com" />
+		 </div>
+		 
+		 <div class="controls">
+		 	 <button id="copySvg" class="secondary">Copy as SVG</button>
+		 	 <button id="downloadPng" class="secondary" >Download PNG (512px)</button>
+		 </div>
+
+
+		 <div style="margin-top:18px;">
+		 	 <div id="qrcode"></div>
+
+		 </div>
+	 </div>
+
+	 	 <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+	 	 <script src="script-genQR.js"></script>
+
+
+		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+		<script>
+			 kofiWidgetOverlay.draw('pithan', {
+			 	 'type': 'floating-chat',
+			 	 'floating-chat.donateButton.text': 'Support me',
+			 	 'floating-chat.donateButton.background-color': '#00b9fe',
+			 	 'floating-chat.donateButton.text-color': '#fff'
+			 });
+		</script>
+
+</body>
+</html>
